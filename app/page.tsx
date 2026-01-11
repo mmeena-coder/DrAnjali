@@ -10,7 +10,7 @@ export default function Home() {
   const [mapLoaded, setMapLoaded] = useState(true);
   const [mapError, setMapError] = useState(false);
 
-  const scrollToSection = (id) => {
+  const scrollToSection = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
     setMobileMenuOpen(false);
   };
