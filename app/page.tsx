@@ -16,16 +16,18 @@ export default function Home() {
   };
 
   // Add timeout to detect if map doesn't load
-  useEffect (() => {
+  useEffect(() => {
+    if (mapLoaded) return;
+
     const timer = setTimeout(() => {
-      if (!mapError) {
-        // If iframe hasn't loaded after 10 seconds, show fallback
-        setMapLoaded(false);
+      if (!mapLoaded && !mapError) {
+        setMapError(true); // mark timeout as error
       }
     }, 10000);
 
     return () => clearTimeout(timer);
-  }, [mapError]);
+  }, [mapLoaded, mapError]);
+
 
 
   return (
