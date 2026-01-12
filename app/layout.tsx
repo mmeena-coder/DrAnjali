@@ -51,13 +51,13 @@ export const metadata: Metadata = {
     title: "Dr. Anjali Meena – Best Eye Specialist in Jaipur",
     description:
       "Expert ophthalmology services, comprehensive eye care, diagnosis & treatment of eye diseases in Jaipur",
-    url: "https://www.dranjalieyecare.in",
+    url: "https://www.dranjalieyecare.com/",
     siteName: "Dr. Anjali Meena - Eye Specialist",
     locale: "en_IN",
     type: "website",
     images: [
       {
-        url: "https://www.dranjalieyecare.in/images/hero-section-img.jpg",
+        url: "https://www.dranjalieyecare.com//images/hero-section-img.jpg",
         width: 1200,
         height: 630,
         alt: "Dr. Anjali Meena – Best Eye Specialist in Jaipur",
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
     title: "Dr. Anjali Meena – Best Eye Specialist in Jaipur",
     description:
       "Expert ophthalmology services, comprehensive eye care, diagnosis & treatment of eye diseases in Jaipur",
-    images: ["https://www.dranjalieyecare.in/images/hero-section-img.jpg"],
+    images: ["https://www.dranjalieyecare.com//images/hero-section-img.jpg"],
   },
 };
 
@@ -83,7 +83,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* Canonical URL */}
-        <link rel="canonical" href="https://www.dranjalieyecare.in" />
+        <link rel="canonical" href="https://www.dranjalieyecare.com/" />
 
         {/* Open Graph */}
         <meta
@@ -91,7 +91,7 @@ export default function RootLayout({
           content="Best Eye Specialist Jaipur – Dr. Anjali Meena"
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.dranjalieyecare.in" />
+        <meta property="og:url" content="https://www.dranjalieyecare.com/" />
 
         {/* Physician Schema */}
         <script
@@ -103,7 +103,7 @@ export default function RootLayout({
               "name": "Dr. Anjali Meena",
               "alternateName": "Eye Specialist in Jaipur - Dr. Anjali Meena",
               "description": "Dr. Anjali Meena is a qualified Ophthalmologist (Eye Specialist) in Jaipur, providing expert eye care services including diagnosis and treatment of various eye diseases.",
-              "image": "https://www.dranjalieyecare.in/doctor-image.jpg",
+              "image": "https://www.dranjalieyecare.com//doctor-image.jpg",
               "medicalSpecialty": "Ophthalmology",
               "jobTitle": "Consultant Ophthalmologist",
               "worksFor": {
@@ -118,7 +118,7 @@ export default function RootLayout({
                 "postalCode": "302017",
                 "addressCountry": "IN"
               },
-              "url": "https://www.dranjalieyecare.in",
+              "url": "https://www.dranjalieyecare.com/",
               "areaServed": {
                 "@type": "City",
                 "name": "Jaipur"
@@ -141,7 +141,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "MedicalBusiness",
               "name": "Navit Eye & Uro Care Clinic",
-              "image": "https://www.dranjalieyecare.in/clinic-image.jpg",
+              "image": "https://www.dranjalieyecare.com//clinic-image.jpg",
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "C-108, Aanand Vihar, Railway Colony",
@@ -153,7 +153,7 @@ export default function RootLayout({
               "medicalSpecialty": "Ophthalmology",
               "areaServed": "Jaipur",
               "priceRange": "$$",
-              "url": "https://www.dranjalieyecare.in"
+              "url": "https://www.dranjalieyecare.com/"
             })
           }}
         />
