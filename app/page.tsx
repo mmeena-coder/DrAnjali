@@ -408,7 +408,7 @@ export default function Home() {
                 <p className="text-gray-600 text-sm mb-4">Call for appointments and inquiries</p>
 
                 <button
-                  onClick={() => window.open('https://wa.me/8955546788?text=Hello%2C%20I%20would%20like%20to%20book%20an%20appointment%20with%20Dr.%20Anjali%20Meena', '_blank')}
+                  onClick={() => window.open('https://wa.me/918955546788?text=Hello%2C%20I%20would%20like%20to%20book%20an%20appointment%20with%20Dr.%20Anjali%20Meena', '_blank')}
                   className="w-full bg-gradient-to-r from-green-500 to-green-600 text-white py-4 px-6 rounded-xl hover:from-green-600 hover:to-green-700 transition-all duration-300 font-bold text-lg flex items-center justify-center gap-3 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
                 >
                   <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
@@ -425,7 +425,7 @@ export default function Home() {
             {/* Map */}
             <div className="rounded-2xl overflow-hidden shadow-lg h-96 relative">
               {mapLoaded ? (
-                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2116.8925977125778!2d75.84459547682742!3d26.834392244756025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjbCsDUwJzA0LjkiTiA3NcKwNTAnMzkuNCJF!5e0!3m2!1sen!2sin!4v1768122091620!5m2!1sen!2sin"
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.1671829068005!2d75.84257347609238!3d26.834634363440344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db70031d9d939%3A0xeeeff8db565ca9e4!2sNAVIT%20EYE%20%26%20URO%20CARE%20CLINIC!5e0!3m2!1sen!2sin!4v1771528059676!5m2!1sen!2sin"
                     width="100%"
                     height="100%"
                     style={{ border: 0 +'px' }}
